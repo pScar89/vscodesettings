@@ -1,0 +1,83 @@
+{        
+  // Window
+  "window.newWindowDimensions": "maximized",
+
+  // Workbench
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark+",
+
+  // Editor
+  "editor.fontSize": 20,
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.fontFamily": "Source Code Pro",
+  "editor.mouseWheelZoom": true,
+
+  // Terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.copyOnSelection": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+
+  // Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Python
+  // "python.defaultInterpreterPath": "C:\\Users\\Beast\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.typeCheckingMode": "basic",
+  
+    // Linting
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+      "--disable=C0114",
+      "--disable=C0115",
+      "--disable=C0116",
+      "--disable=W0611",
+    ],
+
+    // Formatting
+    "[python]": {      
+      "editor.defaultFormatter": "ms-python.autopep8",
+      "editor.formatOnSave": true,
+      // "editor.formatOnType": true
+    },
+    
+    "python.formatting.provider": "none",
+    // "python.formatting.autopep8Args": [
+    //   "pass"
+    // ],
+
+
+  // Misc
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+      "**/__pycache__": true,
+      "**/.classpath": true,
+      "**/.factorypath": true,
+      "**/.project": true,
+      "**/.settings": true
+    },
+
+  //Extensions  
+  "cSpell.userWords": [
+    "autopep",
+    "classpath",
+    "factorypath",
+    "Parens",
+    "pycache",
+    "pylance",
+    "pylint"
+  ],
+
+  
+  "autoDocstring.startOnNewLine": false,
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.autoFormatStrings": true,
+
+
+}
